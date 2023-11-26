@@ -2,6 +2,18 @@
 
 A simple truth table generator.
 
+### Usage
+
+```
+python main.py
+```
+Note: you can use `rlwrap` to get prompt history :
+```
+rlwrap python main.py
+```
+
+No dependencies are required.
+
 ### Examples
 
 ```

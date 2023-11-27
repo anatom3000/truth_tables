@@ -125,7 +125,7 @@ class Not(Expression):
         return f"~{self.arg}"
 
     def vars(self) -> set[str]:
-        return set()
+        return self.arg.vars()
 
     def evaluate(self, env: dict[str, bool]) -> bool:
         return not self.arg.evaluate(env)

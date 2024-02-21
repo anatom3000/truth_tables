@@ -37,7 +37,7 @@ No dependencies are required.
 
 > Note: listed by decreasing precedences
 - not: `~a`
-- and: `a + b`
+- and: `a & b`
 - or: `a + b`
 - nand: `a | b`
 - implies: `a => b`

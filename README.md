@@ -7,7 +7,7 @@ A simple truth table generator.
 ```
 python main.py
 ```
-Note: you can use `rlwrap` to get prompt history :
+Note: you can use `rlwrap` to get prompt history
 ```
 rlwrap python main.py
 ```
